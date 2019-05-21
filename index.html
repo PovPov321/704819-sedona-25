@@ -9,7 +9,7 @@
 <body>
   <header class="main-header">
     <nav class="main-navigation">
-      <a class="main-header-logo">
+      <a class="main-header-logo" aria-label="Логотип Седона">
         <img src="img/logo.png" width="140" height="71" alt="логотип СЕДОНА">
       </a>
       <ul class="site-navigation">
@@ -41,7 +41,28 @@
         Укажите предполагаемые даты поездки,<br>
         и мы покажем вам лучшие предложения гостиниц в седоне
       </p>
-      <!-- будущая форма и карта -->
+      <form action="" method="post" class="search-datetime">
+        <h2> Поиск гостиницы в седоне </h2>
+        <div class="form-datetime">
+          <label>
+            Дата заезда:
+            <input type="text" name="date-year" placeholder="Укажите дату заезда">
+          </label>
+          <label>
+            Дата выезда:
+            <input type="text" name="date-year" placeholder="Укажите дату выезда">
+          </label>
+          <label>
+            Взрослые: <input type="range" min="1" max="5" step="1">
+          </label>
+          <label>
+            Дети: <input type="range" min="1" max="5" step="1">
+          </label>
+          <button class="blue-button" type="submit" class="blue-button" value="Найти" aria-label="Поиск отеля">
+          </button>
+        </div>
+      </form>
+      <!--карта -->
     </section>
   </main>
 
