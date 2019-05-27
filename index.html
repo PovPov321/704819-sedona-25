@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title> HTML Academy: Седона </title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -22,27 +24,30 @@
   </header>
   <!-- Фон СЕДОНА -->
 
-
   <main class="container">
     <section class="advantages">
       <h1>
-        Седона - небольшой городок в Аризоне, заслуживающий большего!
+        Седона - небольшой городок в аризоне, заслуживающий большего!
       </h1>
       <h2>
-        Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!
+        Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
       </h2>
       <!-- блок с преимуществами размечаем позже -->
     </section>
     <section class="map">
-      <h2>
-        Заинтересовались?
-      </h2>
-      <p>
-        Укажите предполагаемые даты поездки,<br>
-        и мы покажем вам лучшие предложения гостиниц в седоне
-      </p>
-      <form action="" method="post" class="search-datetime">
-        <h2> Поиск гостиницы в седоне </h2>
+      <div class="interest-title">
+        <h2>
+          Заинтересовались?
+        </h2>
+        <p>
+          Укажите предполагаемые даты поездки,<br>
+          и мы покажем вам лучшие предложения гостиниц в седоне
+        </p>
+      </div>
+      <form action="https://echo.htmlacademy.ru/" method="post" class="search-datetime">
+        <button class="title-search-hotel" type="submit">
+          Поиск гостиницы в седоне
+        </button>
         <div class="form-datetime">
           <label>
             Дата заезда:
@@ -53,12 +58,13 @@
             <input type="text" name="date-year" placeholder="Укажите дату выезда">
           </label>
           <label>
-            Взрослые: <input type="range" min="1" max="5" step="1">
+            Взрослые: <input type="range" min="1" max="5" step="1" aria-label="Укажите количество взрослых">
           </label>
           <label>
-            Дети: <input type="range" min="1" max="5" step="1">
+            Дети: <input type="range" min="1" max="5" step="1" aria-label="Укажите количество детей">
           </label>
-          <button class="blue-button" type="submit" class="blue-button" value="Найти" aria-label="Поиск отеля">
+          <button class="search-blue-button" type="submit">
+            Найти
           </button>
         </div>
       </form>
@@ -74,14 +80,14 @@
       </a>
     </div>
     <section class="footer-social">
-      <ul>
+      <ul class="button">
         <li><a class="social-button" href="#"> Twitter </a></li>
         <li><a class="social-button" href="#"> Facebook </a></li>
         <li><a class="social-button" href="#"> YouTube </a></li>
       </ul>
     </section>
     <p class="footer-copyright">
-      <a class="button" href="https://htmlacademy.ru"> HTML Academy </a>
+      <a href="https://htmlacademy.ru"> Website by </a>
     </p>
   </footer>
 </body>

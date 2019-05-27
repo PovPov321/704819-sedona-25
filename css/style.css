@@ -1,0 +1,140 @@
+
+
+body {
+  margin: 0;
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: normal;
+  color: #333333;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  background-color: white;
+  color: black;
+}
+
+.site-navigation,
+.button,
+.catalog {
+  list-style: none;
+}
+
+.site-navigation a,
+.footer-social a {
+  color: black;
+}
+
+.site-navigation a:hover {
+  background-color: #81b3d2;
+}
+
+.site-navigation a:focus {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.site-navigation a:active {
+  background-color: #766357;
+}
+
+.booking-btn:hover,
+.title-search-hotel:hover {
+  background-color: #604e43;
+}
+
+.booking-btn:focus,
+.title-search-hotel:focus {
+  background-color: #503e33;
+}
+
+.title-hotel:hover {
+  background-color: #81b3d2;
+}
+
+.title-hotel:focus {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.form-datetime input:hover {
+  background-color: #ebebeb;
+}
+
+.form-datetime input:focus {
+  background-color: #ffffff;
+}
+
+.social-button:hover,
+.search-blue-button:hover,
+.more-info-btn:hover {
+  background-color: #669ec0;
+}
+
+.social-button:focus,
+.search-blue-button:focus,
+.more-info-btn:focus {
+  background-color: #5496bd;
+}
+
+.site-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+  background-color: white;
+  font-weight: bold;
+}
+
+.advantages h1,
+.title-search-hotel,
+.search-blue-button,
+.footer1 a {
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.advantages h2,
+.footer-copyright a {
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.interest-title h2 {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.interest-title p {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.title-hotel {
+  font-size: 21px;
+  line-height: 26px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.hotel-price,
+.more-info-btn,
+.booking-btn {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: left;
+}
+
+.social-button {
+  background-color: #81b3d2;
+}
