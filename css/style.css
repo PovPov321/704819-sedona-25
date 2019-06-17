@@ -10,6 +10,9 @@ body {
   text-transform: uppercase;
   background-color: #f2f2f2;
 }
+/* body > * {
+  background-color: yellow;
+} */
 
 a {
   text-decoration: none;
@@ -137,4 +140,72 @@ a {
 
 .social-button {
   background-color: #81b3d2;
+}
+
+
+.main-header {
+  display: flex;
+  margin-bottom: 61px;
+}
+.main-header-logo {
+  width: 140px;
+  height: 71px;
+}
+.site-navigation {
+  min-height: 56px;
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+}
+.main-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navigation-wrapper {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+
+.main-footer {
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.footer1 {
+  height: 136px;
+  margin-left: 132px;
+  margin-right: 256px;
+}
+.footer-copyright {
+  margin: 0;
+  margin-left: auto;
+}
+.footer-social {
+  margin-right: 230px;
+  width: 46px;
+}
+
+.catalog {
+  display: flex;
+  flex-direction: column;
+}
+.catalog-items {
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+.catalog-items-block {
+  margin-left: 72px;
+  margin-bottom: 31px;
 }
