@@ -11,22 +11,29 @@
 <body>
   <header class="main-header">
     <nav class="main-navigation">
-      <a class="main-header-logo" aria-label="Логотип Седона">
-        <img src="img/logo.png" width="140" height="71" alt="логотип СЕДОНА">
-      </a>
-      <ul class="site-navigation">
-        <li><a href="#"> Информация </a></li>
-        <li><a href="#"> Фото и видео </a></li>
-        <li><a href="#"> Карта штата </a></li>
-        <li><a href="#"> Гостиницы </a></li>
-      </ul>
+      <div class="navigation-wrapper">
+        <a class="main-header-logo" aria-label="Логотип Седона">
+          <img src="img/logo.png" width="140" height="71" alt="логотип СЕДОНА">
+        </a>
+        <ul class="site-navigation">
+          <ul class="left-items">
+            <li class="main-items"> <a href="#"> Информация </a> </li>
+            <li class="main-items"> <a href="#"> Фото и видео </a> </li>
+          </ul>
+          <ul class="right-items">
+            <li class="main-items"> <a href="#"> Карта штата </a> </li>
+            <li class="main-items"> <a href="#"> Гостиницы </a> </li>
+          </ul>
+        </ul>
+      </div>
     </nav>
   </header>
 
 
+
   <main class="container">
     <h1 class="visually-hidden"> Параметры поиска отелей </h1>
-    <!-- будущая форма -->
+
     <section class="#">
       <ul class="catalog">
         <div class="catalog-items-block">
@@ -69,7 +76,7 @@
 
   <footer class="main-footer">
     <div class="footer-wrapper">
-      <div class="footer1">
+      <div class="footer-visit-sedona">
         <a href="#">
           VISITSEDONA
         </a>
